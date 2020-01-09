@@ -20,3 +20,16 @@ body {
     background-color: teal;
   }
 }
+
+@media screen and (min-width: 1100px) {
+  body {
+    margin: auto 300px;
+  }
+  
+  .column {
+    width: 350px;
+    padding: 30px;
+    background-color: pink;
+    text-align: center;
+  }
+}
